@@ -1,0 +1,23 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+#table{
+  border: 1px dotted groove;
+  background-color: grey;
+}
+
+#btn{
+  padding: 5px 7px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+#hr{
+  color: green;
+}
+#p, #h2, #h1{
+  text-align: center;
+}
