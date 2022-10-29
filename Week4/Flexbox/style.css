@@ -1,0 +1,150 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+.container{
+    margin-top: 70px;
+}
+
+.flex-container{
+    height: 500px;
+    width: 1000px;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: auto;
+}
+
+.sedan{
+    width: 250px;
+    height: 400px;
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 5px;
+    border: none;
+}
+
+.btnsedan{
+    background-color: hsl(31, 77%, 52%);
+}
+
+.suv{
+    width: 250px;
+    height: 400px;
+    background-color: hsl(184, 100%, 22%);
+    border-radius: 5px;
+    border: none;
+}
+.btnsuv{
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury{
+    width: 250px;
+    height: 400px;
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 5px;
+    border: none;
+}
+.btnluxury{
+    background-color: hsl(179, 100%, 13%);
+}
+
+p{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+    margin: 20px;
+    text-align: left;
+}
+
+h1{
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
+    margin: 20px;
+    font-size: 20px;
+    
+}
+
+img{
+    margin: 20px;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 0%;
+}
+
+input{
+    color: hsl(0, 0%, 95%);
+    border-radius: 20px;
+    cursor: pointer;
+    border-color: hsl(0, 0%, 95%);
+    margin: 20px;
+    margin-top: 75px;
+    display: inline-block;
+    padding: 10px 25px;
+    font-size: 13px;
+}
+
+
+.grid-container{
+    background-color: black;
+    display: grid;
+    width: 800px;
+    height: 700px;
+    grid-auto-flow: row;
+    grid-gap: 30px;
+    padding: 30px;
+    margin-top: 70px;
+    margin-left: 100px;
+    justify-items: center;
+    grid-template-columns: 300px 200px;
+    grid-template-rows: 250px 250px;
+}
+
+.first{
+    background-color: #eb4034;
+    width: 300px;
+    height: 200px;
+    margin: 5px;
+    
+}
+
+
+.second{
+    background-color: #61eb34;
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+}
+
+.third{
+    background-color: #34bdeb;
+    width: 250px;
+    height: 250px;
+    margin: 5px;
+}
+
+.fourth{
+    background-color: #4634eb;
+    width: 250px;
+    height: 100px;
+    margin: 5px;
+    margin-bottom: 0px;
+}
+
+.fifth{
+    background-color: #dc34eb;
+    width: 250px;
+    height: 100px;
+    margin: 5px;
+    grid-column-start: 2;
+    margin-top: 0px;
+    
+}
+
+
